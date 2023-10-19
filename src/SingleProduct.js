@@ -58,8 +58,7 @@ const addProductToBasket = () => {
             </a>
 
             <p class="showcase-desc">
-              Lorem ipsum dolor sit amet consectetur Lorem ipsum
-              dolor dolor sit amet consectetur Lorem ipsum dolor
+            {product.description}
             </p>
 
             <div class="price-box">

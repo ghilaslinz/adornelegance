@@ -13,13 +13,67 @@
 .payment__container > h1 a {
     text-decoration: none;
 }
-
+/*
 .payment__section {
     display: flex;
     padding: 20px;
     margin: 0 20px;
     border-bottom: 1px solid lightgray;
     width: 50%;
+}
+*/
+.payment__section {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.payment__cardInput {
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.payment__cardElement {
+  width: 100%;
+  padding: 10px;
+}
+
+.payment__priceContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment__total {
+  font-weight: bold;
+}
+
+.payment__checkoutButton {
+  padding: 10px 15px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment__checkoutButton:hover {
+  background-color: #555;
+}
+
+.payment__error {
+  color: red;
+  margin-top: 10px;
 }
 
 .payment__title {

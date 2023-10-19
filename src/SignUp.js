@@ -41,7 +41,7 @@ const theme = createTheme({
 });
 
 export default function SignUp() {
-   const history = useNavigate();
+  const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -53,7 +53,7 @@ export default function SignUp() {
             .then((auth) => {
                 // it successfully created a new user with email and password
                 if (auth) {
-                    history.push('/')
+                  navigate('/')
                 }
             })
             .catch(error => alert(error.message))

@@ -59,9 +59,10 @@ const addProductToBasket = () => {
 
       <a href="#" class="showcase-category">{category}</a>
 
-      <a href="#">
+     
+      <Link to={`/product/${id}`}>	
         <h3 class="showcase-title">{title}</h3>
-      </a>
+      </Link>
 
       <div class="showcase-rating">
     {Array(rating)

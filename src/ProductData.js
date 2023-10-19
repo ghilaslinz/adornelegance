@@ -13,6 +13,7 @@ const productData = [
         imageSecond: "/assets/images/products/jacket-4.jpg",
         badge: "15%",
         badgeClass: "showcase-badge",
+        description : "Crafted for comfort and style: Men's winter leather jackets, blending rugged durability with sophisticated elegance for the chilly months"
     },
     {
         id: uuid(),
@@ -25,6 +26,7 @@ const productData = [
         imageSecond: "/assets/images/products/shirt-2.jpg",
         badge: "sale",
         badgeClass: "showcase-badge angle black",
+        description :"Experience timeless elegance: Pure garment-dyed cotton shirts offering breathable comfort and a unique color finish."
     },
     {
         id: uuid(),
@@ -37,6 +39,7 @@ const productData = [
         imageSecond: "/assets/images/products/jacket-6.jpg",
         badge: "",
         badgeClass: "",
+        description :"Stay cozy and sharp: Men's yarn fleece full-zip jacket, perfect for chilly days with a blend of warmth and modern style."
     },
     {
         id: uuid(),
@@ -49,6 +52,7 @@ const productData = [
         imageSecond: "/assets/images/products/clothes-4.jpg",
         badge: "new",
         badgeClass: "showcase-badge angle pink",
+        description :"Flow with grace: Black floral wrap midi skirt, melding contemporary design with a touch of romantic elegance."
     },
     {
         id: uuid(),
@@ -61,6 +65,8 @@ const productData = [
         imageSecond: "/assets/images/products/shoe-2_1.jpg",
         badge: "",
         badgeClass: "",
+        description :
+        "Step in style: Casual men's brown shoes, seamlessly combining comfort with classic sophistication."
     },
     {
         id: uuid(),
@@ -73,6 +79,8 @@ const productData = [
         imageSecond: "/assets/images/products/watch-4.jpg",
         badge: "sale",
         badgeClass: "showcase-badge angle black",
+        description :
+        "Timeless protection: Leather pouch for pocket watches, merging vintage charm with modern-day durability."
     },
     {
         id: uuid(),
@@ -85,6 +93,7 @@ const productData = [
         imageSecond: "/assets/images/products/watch-2.jpg",
         badge: "",
         badgeClass: "",
+        description :"Tech meets style: 'Vital Plus' smartwatch, the epitome of modern functionality and sleek design."
     },
     {
         id: uuid(),
@@ -97,6 +106,8 @@ const productData = [
         imageSecond: "/assets/images/products/party-wear-2.jpg",
         badge: "sale",
         badgeClass: "showcase-badge angle black",
+        description :
+        "Dance the night away: Women's party wear shoes, blending dazzling design with chic comfort."
     },
     {
         id: uuid(),
@@ -109,6 +120,7 @@ const productData = [
         imageSecond: "/assets/images/products/jacket-2.jpg",
         badge: "",
         badgeClass: "",
+        description :"Bold distinction: Angle black 'showcase-badge', a statement of prestige and unique craftsmanship."
     },
     {
         id: uuid(),
@@ -121,6 +133,7 @@ const productData = [
         imageSecond: "/assets/images/products/sports-4.jpg",
         badge: "sale",
         badgeClass: "showcase-badge angle black",
+        description :"Conquer terrains with ease: Black trekking & running shoes, designed for ultimate performance and style."
     },
     {
         id: uuid(),
@@ -133,6 +146,7 @@ const productData = [
         imageSecond: "/assets/images/products/shoe-1_1.jpg",
         badge: "sale",
         badgeClass: "showcase-badge angle black",
+        description :"Elevate every step: Men's leather formal shoes, exuding classic elegance and unmatched craftsmanship."
     },
     {
         id: uuid(),
@@ -145,6 +159,7 @@ const productData = [
         imageSecond: "/assets/images/products/shorts-2.jpg",
         badge: "sale",
         badgeClass: "showcase-badge angle black",
+        description : "Casual comfort redefined: 'Better Basics' French Terry sweatshorts, offering softness and versatile style for everyday wear."
     },
 ];
 

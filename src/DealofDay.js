@@ -63,6 +63,7 @@ const addProductToBasket = () => {
 </div>
 
             <a href="#">
+              
               <h3 class="showcase-title">{product.title}</h3>
             </a>
 

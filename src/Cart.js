@@ -287,6 +287,36 @@ export default function Cart() {
             </div>
             </section>
             <div className='payment__section'>
+    <form onSubmit={handleSubmit} className='payment__form'>
+        <div className='payment__cardInput'>
+            <CardElement onChange={handleChange} className='payment__cardElement'/>
+        </div>
+
+        <div className='payment__priceContainer'>
+            <h3 className='payment__total'>
+                <CurrencyFormat
+                    renderText={(value) => (
+                        <>Order Total: {value}</>
+                    )}
+                    decimalScale={2}
+                    value={getBasketTotal(basket)}
+                    displayType={"text"}
+                    thousandSeparator={true}
+                    prefix={"€"}
+                />
+            </h3>
+            <button disabled={processing || disabled || succeeded} className='payment__checkoutButton'>
+                <span className='payment__buttonText'>{processing ? <p>Processing</p> : "Buy Now"}</span>
+            </button>
+        </div>
+
+        {/* Errors */}
+        {error && <div className='payment__error'>{error}</div>}
+    </form>
+</div>
+
+            {/*
+            <div className='payment__section'>
             <form onSubmit={handleSubmit}>
                                 <CardElement onChange={handleChange}/>
 
@@ -306,10 +336,11 @@ export default function Cart() {
                                     </button>
                                 </div>
 
-                                  {/* Errors */}
+                                
                                 {error && <div>{error}</div>}
                             </form>
         </div>
+        */}
         </div>
         </Elements>
     )
